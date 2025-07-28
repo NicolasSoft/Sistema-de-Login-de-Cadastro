@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Login -->
+<iframe src="login.html" frameborder="0"></iframe>
+
+<!-- Cadastro -->
+<!-- <iframe src="signup.html" frameborder="0"></iframe> -->
+
+<!-- Dashboard -->
+<!-- <iframe src="dashboard.html" frameborder="0"></iframe> -->
+
+  <div class="dashboard-container">
+    <h1>Bem-vindo, Sabir!</h1>
+    <p>Você está logado com sucesso.</p>
+
+    <button onclick="logout()">Logout</button>
+  </div>
+
+  <script>
+    function logout() {
+      alert("Você saiu.");
+      window.location.href = "login.html";
+    }
+  </script>
+</body>
+</html>
